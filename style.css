@@ -13,7 +13,7 @@ font-family: 'Lato', sans-serif;
 .outer-box{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+    background: linear-gradient(to top left, rgb(0, 0, 0), rgb(76, 17, 76));
 }
 
 .inner-box{
@@ -27,7 +27,7 @@ font-family: 'Lato', sans-serif;
     background: linear-gradient(to top left, #ffffff , #ffffff33);
     backdrop-filter: blur(8px);
     border-radius: 8px;
-    box-shadow: 2px 2px 5px #1d86cd;
+    /* box-shadow: 2px 2px 5px #1d86cd; */
     z-index: 2;
 }
 .signup-header h1{
@@ -37,7 +37,7 @@ font-family: 'Lato', sans-serif;
 
 .signup-header p{
   font-size: 0.9rem;
-  color: #555;
+  color: rgb(42, 42, 42);
 }
 
 .signup-body{
@@ -63,23 +63,23 @@ font-family: 'Lato', sans-serif;
 }
 
 .signup-body p input[type="submit"]{
-    background-color: #3498db;
+    background-color: rgb(103, 4, 103);
     border: none;
     color: white;
     cursor: pointer;
 }
 
 .signup-body p input[type= "submit"]:hover{
-    background-color: #1d86cd;
+    background-color: rgb(70, 3, 70);
     
 }
 .signup-footer p {
-    color: #555;
+    color: #212121;
     text-align: center;
 }
 
 .signup-footer p a{
-    color: #1d86cd;
+    color: rgb(70, 3, 70);
 }
 .circle{
     width: 200px;
